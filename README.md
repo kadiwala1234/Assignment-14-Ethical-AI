@@ -1,21 +1,17 @@
-# 📊 Fairness and Explainability in Machine Learning  
+# Fairness and Explainability in Machine Learning  
 ### Adult Income Prediction using Logistic Regression, Fairlearn, SHAP, and LIME
 
----
-
-## 📌 Project Overview
+## Project Overview
 
 This project focuses on building a machine learning model for income prediction using the Adult Income dataset, with a strong emphasis on **ethical AI principles**, including:
 
-- ⚖️ Fairness analysis across demographic groups  
-- 🧠 Model explainability using SHAP and LIME  
-- 🤖 Transparent and interpretable machine learning  
+- Fairness analysis across demographic groups  
+- Model explainability using SHAP and LIME  
+- Transparent and interpretable machine learning  
 
 The goal is not only to build a predictive model but also to evaluate its **bias, fairness, and interpretability**.
 
----
-
-## 🎯 Objectives
+## Objectives
 
 - Train a Logistic Regression model for binary income classification  
 - Evaluate model performance using standard metrics  
@@ -28,30 +24,24 @@ The goal is not only to build a predictive model but also to evaluate its **bias
   - SHAP (global + local explanations)  
   - LIME (local explanations)
 
----
-
-## 📂 Dataset
+## Dataset
 
 - **Dataset:** Adult Income Dataset  
 - **Source:** UCI Machine Learning Repository  
 - **Task:** Predict whether income is `>50K` or `<=50K`  
 - **Sensitive Attribute:** Gender (`sex`)
 
----
+## Technologies Used
 
-## 🛠️ Technologies Used
-
-- Python 🐍  
+- Python  
 - Pandas & NumPy  
-- Scikit-learn 🤖  
-- Fairlearn ⚖️  
-- SHAP 🧠  
-- LIME 🔍  
-- Matplotlib & Seaborn 📊  
+- Scikit-learn  
+- Fairlearn  
+- SHAP  
+- LIME
+- Matplotlib & Seaborn 
 
----
-
-## ⚙️ Project Workflow
+## Project Workflow
 
 ### 1. Data Preprocessing
 - Handled missing values  
@@ -83,9 +73,7 @@ The goal is not only to build a predictive model but also to evaluate its **bias
 - **LIME**
   - Instance-level prediction explanation  
 
----
-
-## 📊 Key Results
+## Key Results
 
 - The model achieved strong predictive accuracy  
 - Fairness analysis revealed **group disparities across gender**  
@@ -95,18 +83,14 @@ The goal is not only to build a predictive model but also to evaluate its **bias
   - Occupation  
 - SHAP and LIME improved interpretability of predictions  
 
----
-
-## ⚖️ Fairness Insights
+## Fairness Insights
 
 - Differences observed in selection rates between groups  
 - Variations in FPR and TPR indicate potential bias  
 - Bias likely originates from historical data patterns  
 - Highlights the importance of fairness-aware ML systems  
 
----
-
-## 🧠 Explainability Insights
+## Explainability Insights
 
 - **SHAP (Global):**
   - Identified most influential features in predictions  
@@ -115,14 +99,12 @@ The goal is not only to build a predictive model but also to evaluate its **bias
 - **LIME:**
   - Provided human-interpretable local explanations  
 
----
-
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/fairness-ml-project.git
-cd fairness-ml-project
+git clone https://github.com/kadiwala1234/Assignment-14-Ethical-AI.git
+cd Assignment-14-Ethical-AI
 
 **## Install Dependencies**
 
